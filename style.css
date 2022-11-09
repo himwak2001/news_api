@@ -1,0 +1,77 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Asap', sans-serif;
+}
+
+.main-div-container{
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	place-items: center;
+	background-color: #EFF5F5;
+}
+
+.news-container{
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+}
+
+.news-info{
+	width: 550px;
+	border-radius: 20px;
+	padding: 30px;
+	background-color: white;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.icon{
+	font-size: 40px;
+	border-radius: 50%;
+}
+
+.icon:hover{
+	cursor: pointer;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+	background-color: white;
+	transition: 0.5s;
+}
+
+.news-heading{
+	text-align: justify;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.extra-news-info{
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.extra-news-info span{
+	border: 1px solid gray;
+	padding: 5px;
+	border-radius: 5px;
+	text-transform: capitalize;
+}
+
+
+.news-des{
+	text-align: justify;
+	padding-top: 20px;
+	line-height: 1.3rem;
+}
+
+.previous-icon, .next-icon{
+	padding: 0;
+	background-color: #EFF5F5;
+}
